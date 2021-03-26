@@ -49,7 +49,7 @@ body {
   padding: 1%;
 }
 
-/* herImg */
+/*  HEROIMG */
 .heroImg {
   padding: 25px;
 }
@@ -72,6 +72,33 @@ body {
 .textContent h2 {
   font-size: 32px;
   line-height: 40px;
+}
+
+/* FOOTER */
+.footerNavigation {
+  background-color: #2f4f4f;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: ;
+}
+
+.leftFootNav {
+grid-area: 1/1/2/2;
+}
+
+.footName {
+  color: #E8e3D9;
+  padding-left: 20px;
+  text-align:center
+}
+
+.middleFootNav {
+grid-area: ;
+}
+
+.rightFootNav {
+
 }
 footer social links flex 
 .row {
