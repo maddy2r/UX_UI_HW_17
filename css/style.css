@@ -1,7 +1,78 @@
 body {
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #E8e3D9;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
+/* HEADER NAVIGATION */
+.navigation{
+  display: flex;
+  min-height: 1px;
+}
+.leftNav {
+  display: flex;
+  justify-content: flex-start;
+  vertical-align: top;
+  width: 50%;
+  padding-top: 1%;
+  text-align: left;
+}
+.navName {
+  color: #1f2424;
+  padding-left: 20px;
+  text-align:center
+}
+/* right nav items */
+.inline-block{
+  display: inline-block;
+  vertical-align: top;
+}
+/* right nav text*/
+.inline-block a {
+  text-decoration: none;
+  color: #1f2424;
+  list-style: none;
+  padding: 20px;
+}
+.rightNav{
+  width: 73%;
+  padding: 1%;
+  display: flex;
+  justify-content: flex-end;
+}
+.rightNav ul{
+  width: 50%;
+  margin-left: auto;
+  padding: 1%;
+}
+
+/* herImg */
+.heroImg {
+  padding: 25px;
+}
+.heroImg, .textContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.textContent {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr;
+}
+.textContent h1{
+  font-size: 50px;
+  line-height: 60px;
+  grid-area: 1/1/2/2;
+}
+.textContent h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
 footer social links flex 
 .row {
     display: flex;
